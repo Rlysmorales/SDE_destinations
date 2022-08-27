@@ -18,14 +18,30 @@ h1{
     border: 10px solid greenyellow;
 }
 .redbox{
-
+    margin: 40px;
+    width: 40px;
+    height: 200px;
+    border: 10px solid red;
 }
 .bluebox{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid blue;
 
 }
 .purplebox{
+    margin: 40px;
+    width: 40px;
+    height: 200px;
+    border: 10px solid purple;
 
 }
 .yellowbox{
-    
+
+    margin: 40px;
+    width: 40px;
+    height: 200px;
+    border: 10px solid yellow;
+
 }
