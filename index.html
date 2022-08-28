@@ -32,7 +32,42 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm">
-          <div class="redbox mx-5">Form</div>
+          <div class="redbox mx-5">
+            <form class="mx-auto">
+              <div class="vstack gap-2">
+                <label>Destination name</label>
+                <input
+                  type="text"
+                  placeholder="Enter the name of the destination"
+                  required
+                />
+              </div>
+              <div class="vstack gap-2">
+                <label>Location</label>
+                <input
+                  type="text"
+                  placeholder="Where is it located?"
+                  required
+                />
+              </div>
+              <div class="vstack gap-2">
+                <label>Photo</label>
+                <input
+                  type="url"
+                  placeholder="Enter an image url of the place"
+                />
+              </div>
+              <div class="vstack gap-2">
+                <label>Description</label>
+                <textarea placeholder="Where is it located?"></textarea>
+              </div>
+              <div>
+                <button class="btn input-block-level form-control btn-primary">
+                  Add to list
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="col-sm">
           <div class="bluebox mx-5 p-1">
