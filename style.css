@@ -1,3 +1,7 @@
+form {
+    width: 50%;
+}
+
 .redbox {
     height: 600px;
     border: solid 5px red;
